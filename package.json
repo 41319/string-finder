@@ -6,7 +6,7 @@
   "author": "Puah Chee Hau <puahcheehau@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll",
     "search": "node -r esm ./src/index.js"
   },
   "devDependencies": {
