@@ -1,4 +1,3 @@
-import fs from 'fs'
 import { tranverseDirectory } from './library/file'
 import { searchFileContent } from './library/string'
 import { TODO_REGEXP } from './library/constants'
