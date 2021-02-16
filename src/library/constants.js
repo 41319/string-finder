@@ -1,0 +1,1 @@
+export const TODO_REGEXP = /(\*\*[ ]{0,}TODO[ ]{0,}\*\*)|(\/\/.*)/

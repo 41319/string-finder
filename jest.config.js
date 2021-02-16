@@ -191,4 +191,17 @@ module.exports = {
 
   // Whether to use watchman for file crawling
   // watchman: true,
+  "transform": {
+    "\\.[jt]sx?$": "babel-jest"
+  },
+  transformIgnorePatterns: [
+    "node_modules/",
+  ],
+  modulePathIgnorePatterns: [
+    "__fixture__"
+  ],
+    testMatch: [
+    "**/__tests__/**/*.[jt]s?(x)",
+    "**/?(*.)+(spec|test).[tj]s?(x)"
+  ],
 };
