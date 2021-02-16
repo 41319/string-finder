@@ -1,5 +1,5 @@
 # How to run it?
 
-## yarn install
+### 1) yarn install
 
-## yarn search
+### 2) yarn search
